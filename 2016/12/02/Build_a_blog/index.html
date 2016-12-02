@@ -209,11 +209,11 @@
       		<p>HEXO+Github,搭建属于自己的博客</p>
 <p>以上是摘要<br><a id="more"></a><br>以下是余下全文</p>
 <p>1.配置环境<br>安装Node（必须）<br><a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a><br>本地安装Git（必须）<br><a href="https://tortoisegit.org/download/" target="_blank" rel="external">https://tortoisegit.org/download/</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>申请GitHub（必须）<br>作用：是用来做博客的远程创库、域名、服务器之类的，与本地hexo建立连接等。</p>
-<p>2.正式安装HEXO　<br>Node和Git都安装好后，可执行如下命令安装hexo：<br>npm install -g hexo<br>初始化<br>创建一个文件夹，如：Blog，cd到Blog里执行hexo init的。命令：<br>hexo init</p>
+<p>2.正式安装HEXO　<br>Node和Git都安装好后，可执行如下命令安装hexo：<br>npm install -g hexo<br>初始化<br>创建一个文件夹，如：Blog，cd到Blog里执行hexo init的。命令：<br>hexo init<br>npm install</p>
 <p>生成静态页面<br>继续再Blog目录下执行如下命令，生成静态页面<br>hexo generate （hexo g  也可以）   </p>
 <p>本地启动<br>启动本地服务，进行文章预览调试，命令：<br>hexo server  （或hexo s）<br>浏览器输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
 <p>3.配置Github<br>在github上建立Repository<br>建立与你用户名对应的仓库，仓库名必须为【your_user_name.github.io】：<br>liulaowu.github.io<br>现在我们需要在上面初始化的blog目录下来编辑_config.yml文件，来建立关联，命令：<br>vim _config.yml</p>
-<p>deploy:<br>  type: git<br>  repo: <a href="https://github.com/liulaowu/liulaowu.github.io.git" target="_blank" rel="external">https://github.com/liulaowu/liulaowu.github.io.git</a><br>  branch: master<br>执行如下命令才能使用git部署<br>npm install<br>npm install hexo-deployer-git –save   == npm install hexo-deployer-git -S</p>
+<p>deploy:<br>  type: git<br>  repo: <a href="https://github.com/liulaowu/liulaowu.github.io.git" target="_blank" rel="external">https://github.com/liulaowu/liulaowu.github.io.git</a><br>  branch: master<br>执行如下命令才能使用git部署<br>npm install hexo-deployer-git –save   == npm install hexo-deployer-git -S</p>
 <p>然后，执行配置命令：<br>hexo deploy  ( hexo d  也可以）</p>
 <p>然后再浏览器中输入<a href="https://liulaowu.github.io/就可以访问了。" target="_blank" rel="external">https://liulaowu.github.io/就可以访问了。</a></p>
 <p>4.部署步骤<br>每次部署的步骤，可按以下三步来进行。<br>hexo clean<br>hexo generate<br>hexo deploy</p>
