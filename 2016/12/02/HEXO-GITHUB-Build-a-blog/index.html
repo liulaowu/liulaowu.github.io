@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>https://liulaowu.github.io/</title>
+  <title>HEXO + GITHUB Build a blog | https://liulaowu.github.io/</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -84,7 +84,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -191,184 +191,95 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2>YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.</h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p>每一个不曾起舞的日子都是对生命的辜负。</p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-<!-- ============================ Content =========================== -->
-
+      
 <section id="intro">
     <div class="container">
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/12/02/HEXO-GITHUB-Build-a-blog/">HEXO + GITHUB Build a blog</a></h3>
-                    <span>
-                        <span class="post-meta">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
       <time datetime="2016-12-02T10:02:14.000Z" itemprop="datePublished">
           2016-12-02
       </time>
     
 </span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        <p>HEXO+Github,搭建属于自己的博客</p>
-<p>1.配置环境<br>安装Node（必须）<br><a href="https://nodejs.org/en/">https://nodejs.org/en/</a><br>本地安装Git（必须）<br><a href="https://tortoisegit.org/download/">https://tortoisegit.org/download/</a><br><a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a><br>申请GitHub（必须）<br>作用：是用来做博客的远程创库、域名、服务器之类的，与本地hexo建立连接等。</p>
+                <h1>HEXO + GITHUB Build a blog</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<p>HEXO+Github,搭建属于自己的博客</p>
+<p>1.配置环境<br>安装Node（必须）<br><a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a><br>本地安装Git（必须）<br><a href="https://tortoisegit.org/download/" target="_blank" rel="external">https://tortoisegit.org/download/</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>申请GitHub（必须）<br>作用：是用来做博客的远程创库、域名、服务器之类的，与本地hexo建立连接等。</p>
 <p>2.正式安装HEXO　<br>Node和Git都安装好后，可执行如下命令安装hexo：<br>npm install -g hexo<br>初始化<br>创建一个文件夹，如：Blog，cd到Blog里执行hexo init的。命令：<br>hexo init</p>
 <p>生成静态页面<br>继续再Blog目录下执行如下命令，生成静态页面<br>hexo generate （hexo g  也可以）   </p>
-<p>本地启动<br>启动本地服务，进行文章预览调试，命令：<br>hexo server  （或hexo s）<br>浏览器输入<a href="http://localhost:4000">http://localhost:4000</a></p>
+<p>本地启动<br>启动本地服务，进行文章预览调试，命令：<br>hexo server  （或hexo s）<br>浏览器输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
 <p>3.配置Github<br>在github上建立Repository<br>建立与你用户名对应的仓库，仓库名必须为【your_user_name.github.io】：<br>liulaowu.github.io<br>现在我们需要在上面初始化的blog目录下来编辑_config.yml文件，来建立关联，命令：<br>vim _config.yml</p>
-<p>deploy:<br>  type: git<br>  repo: <a href="https://github.com/liulaowu/liulaowu.github.io.git">https://github.com/liulaowu/liulaowu.github.io.git</a><br>  branch: master<br>执行如下命令才能使用git部署<br>npm install hexo-deployer-git –save   == npm install hexo-deployer-git -S</p>
+<p>deploy:<br>  type: git<br>  repo: <a href="https://github.com/liulaowu/liulaowu.github.io.git" target="_blank" rel="external">https://github.com/liulaowu/liulaowu.github.io.git</a><br>  branch: master<br>执行如下命令才能使用git部署<br>npm install hexo-deployer-git –save   == npm install hexo-deployer-git -S</p>
 <p>然后，执行配置命令：<br>hexo deploy  ( hexo d  也可以）</p>
-<p>然后再浏览器中输入<a href="https://liulaowu.github.io/就可以访问了。">https://liulaowu.github.io/就可以访问了。</a></p>
+<p>然后再浏览器中输入<a href="https://liulaowu.github.io/就可以访问了。" target="_blank" rel="external">https://liulaowu.github.io/就可以访问了。</a></p>
 <p>4.部署步骤<br>每次部署的步骤，可按以下三步来进行。<br>hexo clean<br>hexo generate<br>hexo deploy</p>
 <p>一些常用命令：<br>hexo new “postName”         #新建文章<br>hexo new page “pageName”      #新建页面<br>hexo generate     #生成静态页面至public目录<br>hexo server          #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy       #将.deploy目录部署到GitHub<br>hexo help            #查看帮助<br>hexo version        #查看Hexo的版本</p>
-<p>这里有大量的主题列表使用方法里面 都有详细的介绍，我就不多说了。<br><a href="https://github.com/hexojs/hexo/wiki/Themes">https://github.com/hexojs/hexo/wiki/Themes</a><br>vim _config.yml</p>
-<h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><h2 id="Plugins-https-hexo-io-plugins"><a href="#Plugins-https-hexo-io-plugins" class="headerlink" title="Plugins: https://hexo.io/plugins/"></a>Plugins: <a href="https://hexo.io/plugins/">https://hexo.io/plugins/</a></h2><h2 id="Themes-https-hexo-io-themes"><a href="#Themes-https-hexo-io-themes" class="headerlink" title="Themes: https://hexo.io/themes/"></a>Themes: <a href="https://hexo.io/themes/">https://hexo.io/themes/</a></h2><p>theme: TKL   #下载TKL主题，并把他移动到blog目录下的themes目录下，然后再在这里指定主题名即可<br>部署 hexo g<br>提交 hexo d<br>你的主题就修改成功了</p>
+<p>这里有大量的主题列表使用方法里面 都有详细的介绍，我就不多说了。<br><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a><br>vim _config.yml</p>
+<h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><h2 id="Plugins-https-hexo-io-plugins"><a href="#Plugins-https-hexo-io-plugins" class="headerlink" title="Plugins: https://hexo.io/plugins/"></a>Plugins: <a href="https://hexo.io/plugins/" target="_blank" rel="external">https://hexo.io/plugins/</a></h2><h2 id="Themes-https-hexo-io-themes"><a href="#Themes-https-hexo-io-themes" class="headerlink" title="Themes: https://hexo.io/themes/"></a>Themes: <a href="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a></h2><p>theme: TKL   #下载TKL主题，并把他移动到blog目录下的themes目录下，然后再在这里指定主题名即可<br>部署 hexo g<br>提交 hexo d<br>你的主题就修改成功了</p>
 <p>5.一些基本路径<br>文章在 source/_posts，编辑器可以用 Sublime，支持 markdown 语法。如果想修改头像可以直接在主题的 _config.yml 文件里面修改，友情链接，之类的都在这里，<br>修改名字在 public/index.html 里修改。</p>
-<p>Markdown语法参考链接:<br><a href="https://www.zybuluo.com/mdeditor">https://www.zybuluo.com/mdeditor</a></p>
-<p>6.常见问题<br>这个时候再点击<a href="http://0.0.0.0:4000，正常情况下应该是最原始的画面，但是我看到的是：">http://0.0.0.0:4000，正常情况下应该是最原始的画面，但是我看到的是：</a><br>白板和Cannot GET / 几个字</p>
+<p>Markdown语法参考链接:<br><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">https://www.zybuluo.com/mdeditor</a></p>
+<p>6.常见问题<br>这个时候再点击<a href="http://0.0.0.0:4000，正常情况下应该是最原始的画面，但是我看到的是：" target="_blank" rel="external">http://0.0.0.0:4000，正常情况下应该是最原始的画面，但是我看到的是：</a><br>白板和Cannot GET / 几个字</p>
 <p>原因：<br>由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令：<br>npm install hexo-renderer-ejs –save<br>npm install hexo-renderer-stylus –save<br>npm install hexo-renderer-marked –save</p>
 <p>这个时候再重新生成静态文件，命令：<br>hexo generate（或hexo g）<br>启动本地服务器：<br>hexo server（或hexo s）</p>
 <p>7.什么是Hexo<br>Hexo 是一个简单地、轻量地、基于Node的一个静态博客框架，可以方便的生成静态网页托管在github和Heroku上。<br>快速、简单且功能强大的 Node.js 博客框架。A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
-<p>8.GitHub Pages是什么？<br>GitHub Pages 可以被认为是用户编写的、托管在github上的静态网页。由于它的空间免费稳定， 可以用于介绍托管在github上的Project或者搭建网站。<br>有两种形式: Project Site 和 User/Org Site，二者之间的差异可以戳 <a href="https://pages.github.com/">https://pages.github.com/</a></p>
-<p>gp 生成的网站的默认域名是 username.github.io 或者 username.github.io/project-name ，但gp是支持自定义域名的：<br>Custom Domain Name ；<a href="https://help.github.com/articles/about-supported-custom-domains/">https://help.github.com/articles/about-supported-custom-domains/</a> 。购买域名之后，可以和<br>默认的二级域名进行绑定，教程参考： 购买域名、设置DNS<br>更多关于gp的信息，可以戳： Github Pages Help；<a href="https://help.github.com/categories/github-pages-basics/">https://help.github.com/categories/github-pages-basics/</a></p>
+<p>8.GitHub Pages是什么？<br>GitHub Pages 可以被认为是用户编写的、托管在github上的静态网页。由于它的空间免费稳定， 可以用于介绍托管在github上的Project或者搭建网站。<br>有两种形式: Project Site 和 User/Org Site，二者之间的差异可以戳 <a href="https://pages.github.com/" target="_blank" rel="external">https://pages.github.com/</a></p>
+<p>gp 生成的网站的默认域名是 username.github.io 或者 username.github.io/project-name ，但gp是支持自定义域名的：<br>Custom Domain Name ；<a href="https://help.github.com/articles/about-supported-custom-domains/" target="_blank" rel="external">https://help.github.com/articles/about-supported-custom-domains/</a> 。购买域名之后，可以和<br>默认的二级域名进行绑定，教程参考： 购买域名、设置DNS<br>更多关于gp的信息，可以戳： Github Pages Help；<a href="https://help.github.com/categories/github-pages-basics/" target="_blank" rel="external">https://help.github.com/categories/github-pages-basics/</a></p>
 <p>9.全局配置<br>可以在 _config.yml 中修改：</p>
-<h1 id="Hexo-Configuration"><a href="#Hexo-Configuration" class="headerlink" title="Hexo Configuration"></a>Hexo Configuration</h1><h2 id="Docs-http-hexo-io-docs-configuration-html"><a href="#Docs-http-hexo-io-docs-configuration-html" class="headerlink" title="Docs: http://hexo.io/docs/configuration.html"></a>Docs: <a href="http://hexo.io/docs/configuration.html">http://hexo.io/docs/configuration.html</a></h2><h2 id="Source-https-github-com-hexojs-hexo"><a href="#Source-https-github-com-hexojs-hexo" class="headerlink" title="Source: https://github.com/hexojs/hexo/"></a>Source: <a href="https://github.com/hexojs/hexo/">https://github.com/hexojs/hexo/</a></h2><h1 id="Site-站点配置"><a href="#Site-站点配置" class="headerlink" title="Site 站点配置"></a>Site 站点配置</h1><p>title: Hexo-demo #网站标题<br>subtitle: hexo is simple and easy to study #网站副标题<br>description: this is hexo-demo #网栈描述<br>author: pomy #你的名字<br>language: zh-CN #网站使用的语言<br>timezone: Asia/Shanghai #网站时区</p>
+<h1 id="Hexo-Configuration"><a href="#Hexo-Configuration" class="headerlink" title="Hexo Configuration"></a>Hexo Configuration</h1><h2 id="Docs-http-hexo-io-docs-configuration-html"><a href="#Docs-http-hexo-io-docs-configuration-html" class="headerlink" title="Docs: http://hexo.io/docs/configuration.html"></a>Docs: <a href="http://hexo.io/docs/configuration.html" target="_blank" rel="external">http://hexo.io/docs/configuration.html</a></h2><h2 id="Source-https-github-com-hexojs-hexo"><a href="#Source-https-github-com-hexojs-hexo" class="headerlink" title="Source: https://github.com/hexojs/hexo/"></a>Source: <a href="https://github.com/hexojs/hexo/" target="_blank" rel="external">https://github.com/hexojs/hexo/</a></h2><h1 id="Site-站点配置"><a href="#Site-站点配置" class="headerlink" title="Site 站点配置"></a>Site 站点配置</h1><p>title: Hexo-demo #网站标题<br>subtitle: hexo is simple and easy to study #网站副标题<br>description: this is hexo-demo #网栈描述<br>author: pomy #你的名字<br>language: zh-CN #网站使用的语言<br>timezone: Asia/Shanghai #网站时区</p>
 <h1 id="URL-可以不用配置"><a href="#URL-可以不用配置" class="headerlink" title="URL #可以不用配置"></a>URL #可以不用配置</h1><h2 id="If-your-site-is-put-in-a-subdirectory-set-url-as-‘http-yoursite-com-child‘-and-root-as-‘-child-‘"><a href="#If-your-site-is-put-in-a-subdirectory-set-url-as-‘http-yoursite-com-child‘-and-root-as-‘-child-‘" class="headerlink" title="If your site is put in a subdirectory, set url as ‘http://yoursite.com/child‘ and root as ‘/child/‘"></a>If your site is put in a subdirectory, set url as ‘<a href="http://yoursite.com/child">http://yoursite.com/child</a>‘ and root as ‘/child/‘</h2><p>url: <a href="http://yoursite.com">http://yoursite.com</a> #网址，搜索时会在搜索引擎中显示<br>root: / #网站根目录<br>permalink: :year/:month/:day/:title/ #永久链接格式<br>permalink_defaults: #永久链接中各部分的默认值</p>
 <h1 id="Directory-目录配置"><a href="#Directory-目录配置" class="headerlink" title="Directory 目录配置"></a>Directory 目录配置</h1><p>source_dir: source #资源文件夹，这个文件夹用来存放内容<br>public_dir: public #公共文件夹，这个文件夹用于存放生成的站点文件<br>tag_dir: tags #标签文件夹<br>archive_dir: archives #归档文件夹<br>category_dir: categories #分类文件夹<br>code_dir: downloads/code #Include code 文件夹<br>i18n_dir: :lang #国际化文件夹<br>skip_render: #跳过指定文件的渲染，您可使用 glob 来配置路径</p>
 <h1 id="Writing-写作配置"><a href="#Writing-写作配置" class="headerlink" title="Writing 写作配置"></a>Writing 写作配置</h1><p>new_post_name: :title.md # 新文章的文件名称<br>default_layout: post #默认布局<br>titlecase: false # Transform title into titlecase<br>external_link: true # Open external links in new tab<br>filename_case: 0 #把文件名称转换为 (1) 小写或 (2) 大写<br>render_drafts: false #显示草稿<br>post_asset_folder: false #是否启动资源文件夹<br>relative_link: false #把链接改为与根目录的相对位址<br>future: true<br>highlight: #代码块的设置<br>enable: true<br>line_number: true<br>auto_detect: true<br>tab_replace:</p>
 <h1 id="Category-amp-Tag-分类-amp-标签"><a href="#Category-amp-Tag-分类-amp-标签" class="headerlink" title="Category &amp; Tag 分类 &amp; 标签"></a>Category &amp; Tag 分类 &amp; 标签</h1><p>default_category: uncategorized #默认分类<br>category_map: #分类别名<br>tag_map: #标签别名</p>
-<h1 id="Date-Time-format-时间和日期"><a href="#Date-Time-format-时间和日期" class="headerlink" title="Date / Time format 时间和日期"></a>Date / Time format 时间和日期</h1><h2 id="Hexo-uses-Moment-js-to-parse-and-display-date"><a href="#Hexo-uses-Moment-js-to-parse-and-display-date" class="headerlink" title="Hexo uses Moment.js to parse and display date"></a>Hexo uses Moment.js to parse and display date</h2><h2 id="You-can-customize-the-date-format-as-defined-in"><a href="#You-can-customize-the-date-format-as-defined-in" class="headerlink" title="You can customize the date format as defined in"></a>You can customize the date format as defined in</h2><h2 id="http-momentjs-com-docs-displaying-format"><a href="#http-momentjs-com-docs-displaying-format" class="headerlink" title="http://momentjs.com/docs/#/displaying/format/"></a><a href="http://momentjs.com/docs/#/displaying/format/">http://momentjs.com/docs/#/displaying/format/</a></h2><p>date_format: YYYY-MM-DD<br>time_format: HH:mm:ss</p>
+<h1 id="Date-Time-format-时间和日期"><a href="#Date-Time-format-时间和日期" class="headerlink" title="Date / Time format 时间和日期"></a>Date / Time format 时间和日期</h1><h2 id="Hexo-uses-Moment-js-to-parse-and-display-date"><a href="#Hexo-uses-Moment-js-to-parse-and-display-date" class="headerlink" title="Hexo uses Moment.js to parse and display date"></a>Hexo uses Moment.js to parse and display date</h2><h2 id="You-can-customize-the-date-format-as-defined-in"><a href="#You-can-customize-the-date-format-as-defined-in" class="headerlink" title="You can customize the date format as defined in"></a>You can customize the date format as defined in</h2><h2 id="http-momentjs-com-docs-displaying-format"><a href="#http-momentjs-com-docs-displaying-format" class="headerlink" title="http://momentjs.com/docs/#/displaying/format/"></a><a href="http://momentjs.com/docs/#/displaying/format/" target="_blank" rel="external">http://momentjs.com/docs/#/displaying/format/</a></h2><p>date_format: YYYY-MM-DD<br>time_format: HH:mm:ss</p>
 <h1 id="Pagination-分页"><a href="#Pagination-分页" class="headerlink" title="Pagination 分页"></a>Pagination 分页</h1><h2 id="Set-per-page-to-0-to-disable-pagination"><a href="#Set-per-page-to-0-to-disable-pagination" class="headerlink" title="Set per_page to 0 to disable pagination"></a>Set per_page to 0 to disable pagination</h2><p>per_page: 10 #每页显示的文章量 (0 = 关闭分页功能)<br>pagination_dir: page #分页目录</p>
-<h1 id="Extensions-扩展"><a href="#Extensions-扩展" class="headerlink" title="Extensions 扩展"></a>Extensions 扩展</h1><h2 id="Plugins-http-hexo-io-plugins-插件"><a href="#Plugins-http-hexo-io-plugins-插件" class="headerlink" title="Plugins: http://hexo.io/plugins/ 插件"></a>Plugins: <a href="http://hexo.io/plugins/">http://hexo.io/plugins/</a> 插件</h2><h2 id="Themes-http-hexo-io-themes-主题"><a href="#Themes-http-hexo-io-themes-主题" class="headerlink" title="Themes: http://hexo.io/themes/ 主题"></a>Themes: <a href="http://hexo.io/themes/">http://hexo.io/themes/</a> 主题</h2><p>theme: landscape #当前主题名称</p>
-<h1 id="Deployment-部署到github"><a href="#Deployment-部署到github" class="headerlink" title="Deployment #部署到github"></a>Deployment #部署到github</h1><h2 id="Docs-http-hexo-io-docs-deployment-html"><a href="#Docs-http-hexo-io-docs-deployment-html" class="headerlink" title="Docs: http://hexo.io/docs/deployment.html"></a>Docs: <a href="http://hexo.io/docs/deployment.html">http://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>type:</p>
-<p><a href="http://www.tuicool.com/articles/ueI7naV">http://www.tuicool.com/articles/ueI7naV</a></p>
+<h1 id="Extensions-扩展"><a href="#Extensions-扩展" class="headerlink" title="Extensions 扩展"></a>Extensions 扩展</h1><h2 id="Plugins-http-hexo-io-plugins-插件"><a href="#Plugins-http-hexo-io-plugins-插件" class="headerlink" title="Plugins: http://hexo.io/plugins/ 插件"></a>Plugins: <a href="http://hexo.io/plugins/" target="_blank" rel="external">http://hexo.io/plugins/</a> 插件</h2><h2 id="Themes-http-hexo-io-themes-主题"><a href="#Themes-http-hexo-io-themes-主题" class="headerlink" title="Themes: http://hexo.io/themes/ 主题"></a>Themes: <a href="http://hexo.io/themes/" target="_blank" rel="external">http://hexo.io/themes/</a> 主题</h2><p>theme: landscape #当前主题名称</p>
+<h1 id="Deployment-部署到github"><a href="#Deployment-部署到github" class="headerlink" title="Deployment #部署到github"></a>Deployment #部署到github</h1><h2 id="Docs-http-hexo-io-docs-deployment-html"><a href="#Docs-http-hexo-io-docs-deployment-html" class="headerlink" title="Docs: http://hexo.io/docs/deployment.html"></a>Docs: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">http://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>type:</p>
+<p><a href="http://www.tuicool.com/articles/ueI7naV" target="_blank" rel="external">http://www.tuicool.com/articles/ueI7naV</a></p>
 <p>一般主题下有一个 languages 文件夹，用于对应 language 配置项：<br>language 的配置项是 zh-CN ，则会在 languages 文件夹下找到 zh-CN.yml 文件中对应的项来解释。<br>D:\blog\themes\landscape\languages<br>zh-CN.yml</p>
 <p>特别注意：<br>修改全局配置时，注意缩进，同时注意冒号后面要有一个空格。</p>
 <p>主题配置<br>主题的配置文件在 /themes/主题文件夹/_config.yml ，一般包括导航配置(menu)，内容配置(content)，评论插件，图片效果(fancybox)和边栏(sidebar)。<br>Hexo提高了大量的主题，可以在全局配置文件中更改主题：</p>
-<h1 id="Extensions-扩展-1"><a href="#Extensions-扩展-1" class="headerlink" title="Extensions 扩展"></a>Extensions 扩展</h1><h2 id="Plugins-http-hexo-io-plugins-插件-1"><a href="#Plugins-http-hexo-io-plugins-插件-1" class="headerlink" title="Plugins: http://hexo.io/plugins/ 插件"></a>Plugins: <a href="http://hexo.io/plugins/">http://hexo.io/plugins/</a> 插件</h2><h2 id="Themes-http-hexo-io-themes-主题-1"><a href="#Themes-http-hexo-io-themes-主题-1" class="headerlink" title="Themes: http://hexo.io/themes/ 主题"></a>Themes: <a href="http://hexo.io/themes/">http://hexo.io/themes/</a> 主题</h2><p>theme: 你的主题名称</p>
-<p>基本使用<br>写文章通过 new 命令新建一篇文章：<br>$ hexo new [layout] <title><br>//same as<br>hexo n<br>其中layout是可选参数，默认值为 post 。<br>如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，需用引号括起来。<br>Hexo提供的layout在 scaffolds 目录下，也可以在此目录下自建layout文件。新建的文件则会保存到 source/_post 目录下。<br>D:\blog\scaffolds<br>post.md<br>page.md<br>draft.md</p>
-<p>发表的文章会全部显示，如果文章很长，就只要显示文章的摘要就行了。在需要显示摘要的地方添加如下代码即可：<br>以上是摘要<br>
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/12/02/HEXO-GITHUB-Build-a-blog/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/12/02/fuck/">fuck</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2016-12-02T08:55:07.000Z" itemprop="datePublished">
-          2016-12-02
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        #what the fuck ? haha
+<h1 id="Extensions-扩展-1"><a href="#Extensions-扩展-1" class="headerlink" title="Extensions 扩展"></a>Extensions 扩展</h1><h2 id="Plugins-http-hexo-io-plugins-插件-1"><a href="#Plugins-http-hexo-io-plugins-插件-1" class="headerlink" title="Plugins: http://hexo.io/plugins/ 插件"></a>Plugins: <a href="http://hexo.io/plugins/" target="_blank" rel="external">http://hexo.io/plugins/</a> 插件</h2><h2 id="Themes-http-hexo-io-themes-主题-1"><a href="#Themes-http-hexo-io-themes-主题-1" class="headerlink" title="Themes: http://hexo.io/themes/ 主题"></a>Themes: <a href="http://hexo.io/themes/" target="_blank" rel="external">http://hexo.io/themes/</a> 主题</h2><p>theme: 你的主题名称</p>
+<p>基本使用<br>写文章通过 new 命令新建一篇文章：<br>$ hexo new [layout] <title><br>//same as<br>hexo n<br>其中layout是可选参数，默认值为 post 。<br>如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，需用引号括起来。<br>Hexo提供的layout在 scaffolds 目录下，也可以在此目录下自建layout文件。新建的文件则会保存到 source/_post 目录下。<br>D:\blog\scaffolds<br>post.md<br>page.md<br>draft.md</title></p>
+<p>发表的文章会全部显示，如果文章很长，就只要显示文章的摘要就行了。在需要显示摘要的地方添加如下代码即可：<br>以上是摘要<br><a id="more"></a><br>以下是余下全文</p>
+<p>刷新，就能够看到只显示摘要了，同时会提供 Read More 的链接：</p>
+<p>这个文字可以更改，在主题的配置文件( themes/主题文件夹/_config.yml )中，找到 Content ：</p>
+<h1 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h1><p>excerpt_link: Read More #可以更改成想要显示的文字<br>fancybox: true<br>此外，可以修改文章的参数，打开 scaffolds/post.md ，增加类别和描述：<br>tags 和 categories 有多个，则用数组形式。</p>
+<p>部署在部署之前，需要通过命令把所有的文章都做静态化处理，就是生成对应的html, javascript, css，使得所有的文章都是由静态文件组成的：<br>hexo generate<br>//same as<br>hexo g<br>在本地目录下，会生成一个public的目录，里面包括了所有静态化的文件。<br>生成静态文件之后，如果要发布到github，还需要配置 deploy 指令。在全局的配置文件中找到 deploy ：</p>
+<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h1><h2 id="Docs-http-hexo-io-docs-deployment-html-1"><a href="#Docs-http-hexo-io-docs-deployment-html-1" class="headerlink" title="Docs: http://hexo.io/docs/deployment.html"></a>Docs: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">http://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>type: git<br>repo: <a href="https://github.com/dwqs/dwqs.github.io.git" target="_blank" rel="external">https://github.com/dwqs/dwqs.github.io.git</a><br>branch: master<br>然后还要安装 hexo-deployer-git ：<br>npm install hexo-deployer-git -S<br>最后利用hexo指令发布到github：<br>hexo d<br>//same as<br>hexo deploy</p>
+<p>Hexo常用命令：<br>hexo n == hexo new<br>hexo g == hexo generate<br>hexo s == hexo server<br>hexo d == hexo deploy</p>
 
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/12/02/fuck/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/12/02/hello-world/">Hello World</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2016-12-02T08:43:18.545Z" itemprop="datePublished">
-          2016-12-02
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new p
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/12/02/hello-world/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
         <nav class="pagination" role="pagination">
-          
-          
-        </nav>
+    
+    
+    <a class="pull-right" href="/2016/12/02/fuck/">
+        fuck →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+<div class="ds-thread" data-thread-key="2016/12/02/HEXO-GITHUB-Build-a-blog/" data-title="HEXO + GITHUB Build a blog" data-url="http://yoursite.com/2016/12/02/HEXO-GITHUB-Build-a-blog/"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"duoshuo_name"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+	 || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+</div>
     </div>
 </section>
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>虽然还没想好写点什么，但是总觉得这里放句话比较和谐。</p>
-        </div>
-    </div>
-</section>
-<!-- ============================ END Content =========================== -->
+
 
       
 <!-- ============================ Footer =========================== -->
